@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://dogcattdl.scm.azurewebsites.net:443/dogcattdl.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "heroku"]
+	url = https://git.heroku.com/thawing-chamber-63294.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
